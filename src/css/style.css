@@ -1,0 +1,39 @@
+
+
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.bg-dark{
+  transition: 0.2s linear;
+}
+
+.navbar{
+  transition: 0.4s linear;
+}
+
+.text-white{
+  color: #fff;
+}
+
+
+.fonte-3em{
+  font-size: 3em;
+}
+
+.plex-sans{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.mt-2-2{
+  margin-top: 2rem;
+}
+
+.m-10{
+    margin: 3.5em;
+    margin-top: 0px;
+}
+
+
+
+

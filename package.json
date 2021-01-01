@@ -9,7 +9,9 @@
   "author": "José Wilson Barbosa de Sousa Junior (Willnapolitano)",
   "license": "MIT",
   "dependencies": {
-    "@popperjs/core": "^2.6.0",
-    "bootstrap": "^5.0.0-beta1"
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
