@@ -1,9 +1,12 @@
-let isScrollingDark = false
-let cont = 0
 const navbar = document.querySelector(".navbar")
 const navbar_toggler =  document.querySelector(".navbar-toggler")
 const nav_collapse = document.querySelector("#navbarSupportedContent")
 const jumbotron = document.querySelector("#img-jumbotron")
+let isScrollingDark = false
+const pageYoffset0 = 0.0
+let cont = 0
+
+
 
 
 navbar_toggler.addEventListener("click", () => {
@@ -24,13 +27,12 @@ function classAlwaysExist(variavel , classe) {
     }
 }
 
-
 window.addEventListener("scroll", () => {
-    if(window.pageYOffset > 0.0){
+    if(window.pageYOffset > pageYoffset0){
         navbar.classList.add("bg-dark")
         isScrollingDark = true
     }
-    else if(window.pageYOffset === 0.0 && classAlwaysExist(nav_collapse, "show")){
+    else if(window.pageYOffset === pageYoffset0 && classAlwaysExist(nav_collapse, "show")){
         navbar.classList.add("bg-dark")
         isScrollingDark = true
     }

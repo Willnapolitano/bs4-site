@@ -4,66 +4,206 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
-
     <title>BS5</title>
 </head>
 <body>
     <div class="container-fluid p-0">
         <header> 
-            <div class="jumbotron jumbotron-fluid text-center bg-image" style="background-image: url('./imgs/background.jpg'); background-size: cover; height: 200px;" id="img-jumbotron">
+            <div class="jumbotron jumbotron-fluid text-center" style="background-image: url('./imgs/background.jpg'); background-size: cover;" id="img-jumbotron">
               <h1 class="text-white mt-2-2 plex-sans fonte-3em">BS5</h1>
             </div>
             <div class="mask" style="background-color: rgba(0,0,0 0.6);">
             </div>
-              <nav class="navbar navbar-expand-lg  navbar-dark fixed-top">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <img src="./imgs/bootstrap-5-1.svg" width="40" height="40" alt="Logo">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Foot</a>
-                      </li>
-                    </ul>
+              <div class="row">
+                <nav class="navbar navbar-expand-lg  navbar-dark fixed-top">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                      <img src="./imgs/bootstrap-5-1.svg" width="40" height="40" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active mr-5">
+                          <a class="nav-link" href="#home"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mr-5">
+                          <a class="nav-link" href="#about-us"><i class="fas fa-address-card"></i> About us</a>
+                        </li>
+                        <li class="nav-item mr-5">
+                          <a class="nav-link" href="#contact"><i class="fas fa-paper-plane"></i> Contact</a>
+                        </li>
+                        <li class="nav-item mr-5">
+                          <a class="nav-link" href="#foot"><i class="fas fa-flag"></i> Foot</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
-              </nav>
+                </nav>
+              </div>
           </div>
         </header>
         <main>
           <div class="container">
-            <img class="img-fluid m-10 mb-0" src="./imgs/intro.png" alt="Cellphone" width="60%">
-            <div class=" text-center intro mt-0">
-              <h1>Lorem ipsum sia </h1> 
-              <h6 class="text-muted">molestiae corporis deserunt delectus eaque!</h6>
-            </div>
-            
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto placeat libero numquam commodi incidunt iure nemo sed enim dolore at sit minima dolor, voluptates laboriosam exercitationem, debitis vitae laudantium!</p>
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto placeat libero numquam commodi incidunt iure nemo sed enim dolore at sit minima dolor, voluptates laboriosam exercitationem, debitis vitae laudantium!</p>
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto placeat libero numquam commodi incidunt iure nemo sed enim dolore at sit minima dolor, voluptates laboriosam exercitationem, debitis vitae laudantium!</p>
+            <div class="row">
+              <div class="col-sm-12 col-md-5 m-0">
+                <img class="img-fluid mx-auto col-sm-3 col-md-10 mt-5" src="./imgs/intro.png" alt="Cellphone">
+              </div>
+              <div class="mt-0 col-md-5">
+                <h1 id="home" class="text-center"><i class="fas fa-home"></i> Lorem ipsum sia </h1> 
+                <h6 class="text-muted text-center">molestiae corporis deserunt delectus eaque!</h6>
 
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto placeat libero numquam commodi incidunt iure nemo sed enim dolore at sit minima dolor, voluptates laboriosam exercitationem, debitis vitae laudantium!</p>
+                <p class="mt-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, fugit ea quas optio expedita vitae ipsam nihil ipsa consequatur eligendi provident eveniet vero ad velit saepe illo aperiam molestiae est.</p>
+ 
+              <p class="mb-1 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto placeat libero numquam commodi incidunt iure nemo sed enim </p>
+
+              <p class="mb-5 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, quo. Ipsum illo sed officiis maiores, non deleniti quos, quae porro vel enim suscipit velit itaque reprehenderit dolores nobis, fugit nemo?</p>
+              </div>
+              
+              
+            </div>
+          </div>
+          <div class="container mt-5">
+            <h1 id="about-us" class="text-center"><i class="fas fa-address-card"></i> About us</h1>
+              <div class="about-us text-center">
+                  <div class="row">
+                    <div class="card mt-3 mb-5 col-md-4">
+                      <div class="card-body">
+                        <h4 class="card-title">Designer</h4>
+                        <h5 class="card-title">
+                          <img src="./imgs/WhatsApp Image 2020-12-12 at 8.37.54 AM.jpeg" width="150" class="br-2" alt="Profile-image">
+                        </h5>
+                        <h4 class="card-title">Willnapolitano</h4>
+                        <p class="card-text">
+                          Hello! I'm "Willnapolitano" and i made the design of this site!
+                        </p>
+                        <div class="d-flex flex-row-reverse">
+                          <a href="https://www.instagram.com/_willdev/" class="ml-2" target="blank"><i class="fab fa-instagram"></i>
+                          </a>
+                          <a href="https://github.com/Willnapolitano" class="ml-2" target="blank"><i class="fab fa-github"></i>
+                          </a>
+                          <a href="https://www.linkedin.com/in/wilsonsousaj%C3%BAnior/" class="ml-2" target="blank"><i class="fab fa-linkedin"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-3 mb-5 col-md-4">
+                      <div class="card-body">
+                        <h4 class="card-title">Manager</h4>
+                        <h5 class="card-title">
+                          <img src="./imgs/WhatsApp Image 2021-01-02 at 10.05.27 AM.jpeg" width="150" class="br-2" alt="Profile-image">
+                        </h5>
+                        <h4 class="card-title">Wilson Júnior</h4>
+                        <p class="card-text">
+                          Hello! I'm Wilson and i managed this site!
+                        </p>
+                        <div class="d-flex flex-row-reverse">
+                          <a href="https://www.instagram.com/_willdev/" class="ml-2" target="blank"><i class="fab fa-instagram"></i>
+                          </a>
+                          <a href="https://github.com/Willnapolitano" class="ml-2" target="blank"><i class="fab fa-github"></i>
+                          </a>
+                          <a href="https://www.linkedin.com/in/wilsonsousaj%C3%BAnior/" class="ml-2" target="blank"><i class="fab fa-linkedin"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-3 mb-5 col-md-4">
+                      <div class="card-body">
+                        <h4 class="card-title">Programmer</h4>
+                        <h5 class="card-title">
+                          <img src="./imgs/WhatsApp Image 2021-01-03 at 1.02.35 PM.jpeg" width="150" class="br-2" alt="Profile-image">
+                        </h5>
+                        <h4 class="card-title">Will</h4>
+                        <p class="card-text ">
+                          Hello! I'm "Will" and i programmed this site!
+                        </p>
+                        <div class="d-flex flex-row-reverse">
+                          <a href="https://www.instagram.com/_willdev/" class="ml-2" target="blank"><i class="fab fa-instagram"></i>
+                          </a>
+                          <a href="https://github.com/Willnapolitano" class="ml-2" target="blank"><i class="fab fa-github"></i>
+                          </a>
+                          <a href="https://www.linkedin.com/in/wilsonsousaj%C3%BAnior/" class="ml-2" target="blank"><i class="fab fa-linkedin"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div
+              </div>
         </div>
         </main>
-        <footer>
-            
+        <section>
+          <h1 class="text-center"><i class="fas fa-paper-plane"></i> Contact us</h1>
+          <div class="row"></div>
+            <div class=" mx-auto contact-us col-xl-5" id="contact-us">
+                <form>
+                  <div class="form-group col-xl-5 mx-auto">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group mt-1 form-group col-xl-5 mx-auto">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                  </div> 
+                  <div class="form-group form-group col-xl-5 mx-auto">
+                    <label for="textarea">Content</label>
+                    <textarea class="form-control" id="textarea" rows="3"></textarea>
+                  </div>
+                  <div class="form-check text-center">
+                    <input type="checkbox" class="form-check-input" id="checkbox">
+                    <label class="form-check-label" for="checkbox">I'agree with terms of conduct</label>
+                  </div>
+                  <div class="text-center mt-4">
+                      <button type="submit" class="btn btn-dark mx-auto">Submit</button>
+                </form>
+              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modalBox">Terms of Conduct</button>
+              <div class="modal fade" id="modalBox" tabindex="-1" role="dialog" aria-labelledby="modalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modalBoxTitle">Terms of Conduct</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestias eos excepturi, labore, repellendus recusandae inventore accusamus nihil repellat nostrum sit, exercitationem voluptatem. Consequatur excepturi dolores tenetur sit totam quia?</p>
+
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestias eos excepturi, labore, repellendus recusandae inventore accusamus nihil repellat nostrum sit, exercitationem voluptatem. Consequatur excepturi dolores tenetur sit totam quia?</p>
+
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestias eos excepturi, labore, repellendus recusandae inventore accusamus nihil repellat nostrum sit, exercitationem voluptatem. Consequatur excepturi dolores tenetur sit totam quia?</p>
+
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestias eos excepturi, labore, repellendus recusandae inventore accusamus nihil repellat nostrum sit, exercitationem voluptatem. Consequatur excepturi dolores tenetur sit totam quia?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                <div
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer id="foot">
+            <blockquote class="blockquote text-center">
+              <p class="mb-0">-Lorem Ipsum-</p>
+              <footer class="blockquote-footer">Ipsum Lorem</footer>
+            </blockquote>
+            <div class="footer w-100 bg-dark text-center p-2">
+              <h3 class="text-white">Menu</h3>
+                <div class="list-group bg-dark">
+                  <a href="#home" class="list-group-item list-group-item-action">Home</a>
+                  <a href="#about-us" class="list-group-item list-group-item-action">About Us</a>
+                  <a href="#contact-us" class="list-group-item list-group-item-action">Contact Us</a>
+                </div>
+            </div>
         </footer>
       </div>
 <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>

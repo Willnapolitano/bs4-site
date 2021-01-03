@@ -34,6 +34,29 @@
     margin-top: 0px;
 }
 
+#aboutus{
+  margin-right: 5px;
+}
+
+.br-2{
+  border-radius: 300px;
+}
+
+.contact-us{
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  border: 1px solid #3333;
+}
 
 
+@media(min-width: 1024px){
+  #img-jumbotron{
+    height: 300px;
+  }
+
+  .mt-2-2{
+    margin-top: 3.5rem;
+  }
+}
 
