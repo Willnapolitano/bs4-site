@@ -33,6 +33,12 @@
 
 </h1>
 
+<h1 align="center">
+  
+  <img alt="PrintMobile" src="./screenshots/WhatsApp Image 2021-01-04 at 11.14.10 AM.jpeg">
+
+</h1>
+
 Part II: Desktop 
 
 <h1 align="center">
