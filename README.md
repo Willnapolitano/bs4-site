@@ -1,7 +1,7 @@
 <h1 align="center">BS4 site template</h1>
 
 
-<p align="center">This is a Landing Page Template made by me made with Responsiveness/MobileFirst concepts! you can access it through the link: https://bs4-template.netlify.app/src/index.html</p>
+<p align="center">This is a Landing Page Template made by me made with Responsiveness / MobileFirst concepts! you can access it through the link: https://bs4-template.netlify.app/src/index.html</p>
 
 <br/>
 <br/>
